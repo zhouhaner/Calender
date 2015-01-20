@@ -76,7 +76,6 @@ la_100:                    /**** la_100 ****/
        case 5: strcpy (WEEK,"FRIDAY"); break;
        case 6: strcpy (WEEK,"SATURDAY"); break;
       }
-     printf ("\n this day is %s  \( %d \)\n\n OK!\n",WEEK,week);
   }
    else
    {

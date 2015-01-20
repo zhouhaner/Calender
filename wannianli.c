@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 main(int a,char **date)
 {
 	int year=0,month=0,day=0,week;
@@ -75,6 +76,7 @@ la_100:                    /**** la_100 ****/
        case 4: strcpy (WEEK,"THURSDAY"); break;
        case 5: strcpy (WEEK,"FRIDAY"); break;
        case 6: strcpy (WEEK,"SATURDAY"); break;
+	   default: "null";break;
       }
   }
    else
